@@ -11,7 +11,8 @@ int main() {
     cout<<"Enter List: ";
     for(int i=0; i<n; i++){
         int t;
-        cin>>numbers[i];
+        cin>>t;
+        numbers.push_back(t);
     }
     
     map<int, int> count;
